@@ -1,0 +1,54 @@
+.food{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    margin-left: 219px;
+    align-items: center;
+}
+
+ul:nth-child(1){
+    color: #FF6838;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+
+ul li a{
+text-decoration: none;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #363853;
+transition: .3s;
+}
+
+
+ul li a:hover{
+    color: #FF6838;
+}
+
+button{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+
+padding: 14px 27px 14px 28px;
+background: #FF7A50;
+border: none;
+border-radius: 5px;
+}
